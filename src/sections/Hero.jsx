@@ -5,14 +5,14 @@ import SocialIcons from './../components/SocialIcons'
 
 const Hero = () => {
   return (
-    <section id='Profile' className="relative bg-black min-h-screen flex items-center justify-around text-white">
-      <div className='w-1/4 relative'>
+    <section id='Profile' className="relative bg-black min-h-screen flex flex-col md:flex-row items-center justify-between text-white lg:gap-16 md:gap-12 gap-8 overflow-visible">
+      <div className='w-full md:w-2/6 h-fit relative flex justify-center overflow-visible'>
         <Light />
         <img src={profile} alt="Profile image" className='opacity-75 rounded-b-full' data-aos="fade-up"/>
       </div>
-      <div className="relative text-left w-3/5">
+      <div className="relative text-left w-full md:w-4/6 h-fit">
         <div className='pb-10'>
-          <h1 className="text-6xl sm:text-7xl lg:text-8xl font-extrabold tracking-tight" data-aos="fade-left" data-aos-delay="100">
+          <h1 className="text-5xl sm:text-7xl lg:text-8xl font-extrabold tracking-tight" data-aos="fade-left" data-aos-delay="100">
             <span className='font-normal text-6xl sm:text-7xl lg:text-7xl'>VAISYA</span><br />
             GOVINANDA
           </h1>

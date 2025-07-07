@@ -3,7 +3,7 @@ import { FaWhatsapp, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const SocialIcons = ({ dataAos = '', dataAosDelay = 0, reverse = false }) => {
   return (
-    <div className={`flex gap-4 ${reverse ? 'flex-row-reverse' : 'flex-row'}`}>
+    <div className={`w-fit flex gap-4 ${reverse ? 'flex-row-reverse' : 'flex-row'}`}>
       <a 
         href="https://wa.me/089604926399" 
         target="_blank" 

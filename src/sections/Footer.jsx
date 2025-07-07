@@ -4,7 +4,7 @@ import SocialIcons from './../components/SocialIcons';
 function Footer() {
   return (
     <div className='flex flex-col gap-10 bg-black text-white w-full h-fit'>
-			<div className='flex justify-between items-end'>
+			<div className='flex justify-between md:items-end flex-col md:flex-row gap-4'>
 				<div data-aos="fade-left" >
 					<h3 className="text-xl sm:text-2xl lg:text-4xl font-extrabold tracking-tight pb-4">
 						EXRYZE

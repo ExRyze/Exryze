@@ -9,10 +9,10 @@ import Footer from './sections/Footer';
 
 function App() {
   return (
-    <div className="relative w-full h-full break-words scroll-smooth">
+    <div className="relative w-full h-full scroll-smooth box-border">
       <Navigation />
 
-      <main className='*:lg:px-20 *:lg:py-12 *:md:px-16 *:md:py-12 *:px-8 *:py-6 w-fit h-fit overflow-hidden animate-ease-in-out'>
+      <main className='*:lg:px-20 *:lg:py-16 *:md:px-16 *:md:py-12 *:px-8 *:py-8 w-full overflow-hidden animate-ease-in-out'>
         <Hero />
         <About />
         <Projects />

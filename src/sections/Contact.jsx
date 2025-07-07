@@ -4,7 +4,7 @@ import Light from './../components/Light'
 
 const Contact = () => {
   return (
-    <section id="Contact" className="relative bg-black min-h-screen flex items-center justify-center text-white">
+    <section id="Contact" className="relative bg-black h-fit lg:min-h-screen flex items-center justify-center text-white">
       <div className="w-full flex flex-col md:flex-row gap-12 md:gap-20 items-start justify-center z-10 mt-12 md:mt-0">
         <div className="flex-1 flex flex-col items-start max-w-lg">
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight pb-4 border-b-2 border-sky-500 text-center mb-10" data-aos="fade-left">
@@ -36,7 +36,7 @@ const Contact = () => {
 					<h3 className="text-xl sm:text-2xl lg:text-4xl font-extrabold tracking-tight pb-4 mb-4 border-b-[1px] border-sky-500" data-aos="fade-up" data-aos-delay="50">
 						Contact Form
 					</h3>
-          <form className="space-y-4">
+          <form className="space-y-4" action="mailto:vaisyagovinandas@gmail.com" method="POST" enctype="text/plain">
             <div data-aos="fade-up" data-aos-delay="100">
               <input
                 type="text"

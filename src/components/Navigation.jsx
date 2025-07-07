@@ -8,7 +8,7 @@ const Navigation = () => {
         <img src={exryze} alt="Exryze logo" />
       </div>
       
-      <div className="space-x-6 text-gray-300 text-lg">
+      <div className="flex gap-4 md:gap-6 text-gray-300 text-lg">
         <a href="#Profile" className="hover:text-white transition duration-200" data-aos="fade-left" data-aos-delay="0">Profile</a>
         <a href="#About" className="hover:text-white transition duration-200" data-aos="fade-left" data-aos-delay="50">About</a>
         <a href="#Projects" className="hover:text-white transition duration-200" data-aos="fade-left" data-aos-delay="100">Projects</a>

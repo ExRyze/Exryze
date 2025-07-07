@@ -31,7 +31,7 @@ const Projects = () => {
   const rightProject = projectsData[2];
 
   return (
-    <section id="Projects" className="relative bg-black min-h-screen flex flex-col items-center justify-center text-white py-12 px-6 sm:px-10 lg:px-20 overflow-hidden">
+    <section id="Projects" className="relative bg-black h-fit lg:min-h-screen flex flex-col items-center justify-center text-white py-12 px-6 sm:px-10 lg:px-20 overflow-hidden">
       <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight pb-4 border-b-2 border-sky-500 text-center" data-aos="fade-up">
         Projects
       </h2>
