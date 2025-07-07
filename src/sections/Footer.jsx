@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className='flex flex-col gap-10 bg-black text-white w-full h-fit'>
 			<div className='flex justify-between items-end'>
-				<div>
+				<div data-aos="fade-left" >
 					<h3 className="text-xl sm:text-2xl lg:text-4xl font-extrabold tracking-tight pb-4">
 						EXRYZE
 					</h3>
@@ -13,9 +13,11 @@ function Footer() {
 						Rise with every step. Carry the dream.
 					</p>
 				</div>
-				<SocialIcons />
+				<SocialIcons dataAos={"fade-right"} dataAosDelay={0} reverse />
 			</div>
-			<p className='text-center text-gray-400 border-t-2 border-gray-300 pt-4'>Made by <a href="http://" className='font-bold hover:underline'>ExRyze</a></p>
+			<p className='text-center text-gray-400 border-t-2 border-gray-300 pt-4' data-aos="zoom-in" data-aos-delay="100" >
+				Made by <a href="http://" className='font-bold hover:underline' >ExRyze</a>
+			</p>
     </div>
   );
 }

@@ -31,18 +31,18 @@ const Projects = () => {
   const rightProject = projectsData[2];
 
   return (
-    <section id="projects" className="relative bg-black min-h-screen flex flex-col items-center justify-center text-white py-12 px-6 sm:px-10 lg:px-20 overflow-hidden">
-      <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight pb-4 border-b-2 border-sky-500 text-center">
+    <section id="Projects" className="relative bg-black min-h-screen flex flex-col items-center justify-center text-white py-12 px-6 sm:px-10 lg:px-20 overflow-hidden">
+      <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight pb-4 border-b-2 border-sky-500 text-center" data-aos="fade-up">
         Projects
       </h2>
 
       <div className="relative w-full max-w-7xl flex flex-col items-center justify-center space-y-8 z-10">
         <div className="relative w-full flex justify-center items-center h-80 sm:h-96 md:h-[400px] lg:h-[500px] mt-20">
-          <div className="absolute left-1/2 transform -translate-x-[120%] -translate-y-1/2 top-1/2 w-[250px] h-[150px] sm:w-[300px] sm:h-[180px] lg:w-[400px] lg:h-[250px] bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-all duration-500 ease-in-out filter grayscale blur-sm opacity-70">
+          <div className="absolute left-1/2 transform -translate-x-[120%] -translate-y-1/2 top-1/2 w-[250px] h-[150px] sm:w-[300px] sm:h-[180px] lg:w-[400px] lg:h-[250px] bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-all duration-500 ease-in-out filter grayscale blur-sm opacity-70" data-aos="fade-up" data-aos-delay="300">
             <img src={leftProject.image} alt={leftProject.title} className="w-full h-full object-cover filter grayscale opacity-80" />
           </div>
 
-          <div className="relative z-20 h-[300px] sm:h-[400px] lg:h-[450px] aspect-video bg-gray-700 rounded-lg shadow-2xl overflow-hidden transition-all duration-500 ease-in-out">
+          <div className="relative z-20 h-[300px] sm:h-[400px] lg:h-[450px] aspect-video bg-gray-700 rounded-lg shadow-2xl overflow-hidden transition-all duration-500 ease-in-out" data-aos="fade-up" data-aos-delay="200">
             <img src={currentProject.image} alt={currentProject.title} className="w-full h-full object-cover opacity-90" />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-gray-700 to-transparent opacity-50 flex gap-4 items-end p-4">
               <div className='flex flex-col gap-2'>
@@ -62,7 +62,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="absolute right-1/2 transform translate-x-[120%] -translate-y-1/2 top-1/2 w-[250px] h-[150px] sm:w-[300px] sm:h-[180px] lg:w-[400px] lg:h-[250px] bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-all duration-500 ease-in-out filter grayscale blur-sm opacity-70">
+          <div className="absolute right-1/2 transform translate-x-[120%] -translate-y-1/2 top-1/2 w-[250px] h-[150px] sm:w-[300px] sm:h-[180px] lg:w-[400px] lg:h-[250px] bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-all duration-500 ease-in-out filter grayscale blur-sm opacity-70" data-aos="fade-up" data-aos-delay="300">
             <img src={rightProject.image} alt={rightProject.title} className="w-full h-full object-cover filter grayscale opacity-80" />
           </div>
         </div>

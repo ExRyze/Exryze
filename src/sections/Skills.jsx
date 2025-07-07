@@ -20,10 +20,7 @@ const whatCanIDo = [
 
 const Skills = () => {
   return (
-    <section 
-      id="skills" 
-      className="relative min-h-screen bg-black"
-    >
+    <section id="Skills" className="relative min-h-screen bg-black">
       {/* Konten Utama Resume */}
       <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16 mt-20 md:mt-32">
         {/* Kolom Kiri */}
